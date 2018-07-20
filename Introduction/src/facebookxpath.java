@@ -11,8 +11,8 @@ public class facebookxpath {
 		driver.get("http://facebook.com");
 		
 		/*XPath locators */
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("debeale@gmail.com");
-		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("~#0614$3@HaWk$1959~1");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("test");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("password");
 		driver.findElement(By.xpath("//*[@value='Log In']")).click();
 		
 			
