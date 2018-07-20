@@ -17,8 +17,8 @@ public class Facebook {
 		System.out.println(driver.getCurrentUrl());
 		//System.out.println(driver.getPageSource());
 		driver.get("http://facebook.com");
-		/*driver.findElement(By.id("email")).sendKeys("debeale@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("~#0614$3@HaWk$1959~1");
+		/*driver.findElement(By.id("email")).sendKeys("test");
+		driver.findElement(By.id("pass")).sendKeys("password");
 		driver.findElement(By.linkText("Forgot account?")).click();*/
 		
 		driver.findElement(By.cssSelector("#email")).sendKeys("test");
