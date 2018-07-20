@@ -21,8 +21,8 @@ public class Facebook {
 		driver.findElement(By.id("pass")).sendKeys("~#0614$3@HaWk$1959~1");
 		driver.findElement(By.linkText("Forgot account?")).click();*/
 		
-		driver.findElement(By.cssSelector("#email")).sendKeys("debeale@gmail.com");
-		driver.findElement(By.cssSelector("#pass")).sendKeys("~#0614$3@HaWk$1959~1");
+		driver.findElement(By.cssSelector("#email")).sendKeys("test");
+		driver.findElement(By.cssSelector("#pass")).sendKeys("password");
 		driver.findElement(By.xpath("//*[@id='u_0_3']")).click();
 		
 		//driver.navigate().back();
